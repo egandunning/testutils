@@ -2,8 +2,6 @@ package testutils.reflection;
 
 import java.lang.reflect.Field;
 
-import javax.swing.JFrame;
-
 public class ReflectionUtils {
 
 	/**
