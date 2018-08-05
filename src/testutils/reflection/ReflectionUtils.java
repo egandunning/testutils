@@ -20,7 +20,9 @@ public class ReflectionUtils {
 			
 			field.setAccessible(true);
 			
-			return (T) field.get(expectedType);
+			System.out.println("type:" + field.getType());
+			
+			return (T) field.get(obj);
 			
 		} catch (NoSuchFieldException e) {
 			e.printStackTrace();
